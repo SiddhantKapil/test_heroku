@@ -12,4 +12,5 @@ def my_form_post():
     processed_text = text.upper()
     return processed_text
 
-app.run()
+if __name__=='__main__':
+    app.run()
