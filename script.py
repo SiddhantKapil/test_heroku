@@ -12,4 +12,4 @@ def my_form_post():
     processed_text = text.upper()
     return processed_text
 
-app.run(host='0.0.0.0')
+app.run()
